@@ -72,7 +72,7 @@ void mediabuttons();
 void setup(void) {
   Serial.begin(115200);
   delay(1000);
-  Serial.print(F("Hello! ST77xx TFT Test"));
+  Serial.println(F("Hello! ST77xx TFT Test"));
 
   pinMode(TFT_BL, OUTPUT);
   digitalWrite(TFT_BL, HIGH);
